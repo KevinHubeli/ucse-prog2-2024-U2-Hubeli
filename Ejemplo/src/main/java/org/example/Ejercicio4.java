@@ -23,7 +23,7 @@ public class Ejercicio4 {
     private CompletableFuture<Integer> createTarea() {
         return CompletableFuture.supplyAsync(() -> {
             try {
-                int delay = ThreadLocalRandom.current().nextInt(10, 300);
+                int delay = ThreadLocalRandom.current().nextInt(101, 500);
                 String threadName = Thread.currentThread().getName();
                 System.out.println("Hilo " + threadName + " iniciado con un retraso de " + delay + " milisegundos.");
                 Thread.sleep(delay);
