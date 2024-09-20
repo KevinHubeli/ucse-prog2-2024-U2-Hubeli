@@ -15,11 +15,10 @@ En este caso particular, la operación de stream es más rápida que la operaci�
 
 ## Necesarias para aprobar:
 
-- Todos los ejercicios deberían poder ejecutarse, el ejercicio 3, 4 y las pruebas de Benchmark en el main.
-- Ejercicio 2: Deben duplicar el codigo anterior, no modificarlo en el mismo archivo. NO utilizar
-  optimizaciones del compilador JIT (Just In Time). Para ésto deberían de utilizar el objeto BlackHole, el cual les
-  permite tener resultados sin sesgos en cuanto a la optimización del compilador, pueden ver un ejemplo
-  acá https://www.baeldung.com/java-microbenchmark-harness#dead-code-elimination
+- El StreamBenchmark NO se realiza de la manera correcta. Justamente la idea es utilizar la libreria org.openjdk.jmh
+  para realizar las pruebas, y utilizar los métodos previstos.
+- La imagen de las pruebas de benchmark NO se corresponde con lo que realiza la aplicación. Actualizar las imágenes como
+  corresponda.
 - En la elaboración de sus conclusiones, es fundamental que incluyan los valores obtenidos en la descripción y
   cuantifiquen los resultados con medidas específicas. Al hacer esto, sus conclusiones serán más precisas y sólidas.
   Incluir qué Modo de Benchmark utilizaron, por qué lo eligieron, análizar qué representan los resultados, cómo influye
